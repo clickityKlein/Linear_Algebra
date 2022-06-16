@@ -8,7 +8,8 @@ Package containing common linear algebra tools using general python language. Cr
 ## A Look Under the Hood
 There is a single code file used for this project, consisting of multiple functions in a class.
 - zeros(row, column): returns a matrix of zeros for the given amount of rows and columns.
-- identiy(dimension): returns an identity matrix for the given dimension (i.e. an nxn matrix with 1's in the diagnonal, and the rest 0's). BUILDS OFF FUNCTIONS: zeros()
+- identiy(dimension): returns an identity matrix for the given dimension (i.e. an nxn matrix with 1's in the diagnonal, and the rest 0's).
+  BUILDS OFF FUNCTIONS: zeros()
 - vector_or_matrix(A): takes in a list object A. Returns a certain value for if it's a matrix, vector, or neither (error).
 - matrix_size_check(A): takes in a list object A. Returns the length of the vector, or the dimensions of a matrix. BUILDS OFF FUNCTIONS: vector_or_matrix()
 - matrices_size_check(A, B): takes in two list objects A, B. Returns if these vectors or matrices are the same size or not. BUILDS OFF FUNCTIONS: matrix_size_check()
@@ -31,4 +32,5 @@ Additionally, there are thoughts to work up future linear algebra concepts such 
 - Transpose Fromula
 
 Although a great exercise, as stated in the opening, it might be a better use of time to stick with the renowned modules that use actual array objects.
+
 [Table of Contents](#table-of-contents)
