@@ -3,6 +3,7 @@ Package containing common linear algebra tools using general python language. Cr
 
 ## Table of Contents:
 - [A Look Under the Hood](#a-look-under-the-hood)
+- [Thoughts / Future Functions](#thoughts-/-future-functions)
 
 ## A Look Under the Hood
 There is a single code file used for this project, consisting of multiple functions in a class.
@@ -17,4 +18,17 @@ There is a single code file used for this project, consisting of multiple functi
 - multiplication_dimension_match(A, B): takes in two list objects A, B. Returns if different values based on whether the objects are vectors and / or matrices, and if the two objects are compatible for matrix multiplication (i.e. if the dimensions of the objects are: A = [r1 c1] & B = [r2 c2], if c1 = r2 then the objects are compatible for matrix multiplication). BUILDS OFF FUNCTIONS: vector_or_matrix(), matrix_size_check()
 - matrix_multiplication(A, B): takes in list objects A, B. Returns a single list object (matrix or vector) after matrix multiplication is applied between A and B. BUILDS OFF FUNCTIONS: matrix_size_check(), multiplication_dimension_match()
 
+[Table of Contents](#table-of-contents)
+
+## Thoughts / Future Functions
+This was an entertaining exercise, albeit surprisingly time consuming while employing error handling and building out supporting functions (vector_or_matrix(), multiplication_dimension_match(), etc.). It's fascinating that the module works with consecutive functions ultimately cumulating into some of the more basic functions of linear algebra, such as addition, subtraction, and multiplcation of matrices and vectors.
+
+Additionally, there are thoughts to work up future linear algebra concepts such as:
+- Elimation Matrx
+- Magnitude of Vector
+- Unit Vector
+- Span, Independence Tests, Subspace Tests, Basis
+- Transpose Fromula
+
+Although a great exercise, as stated in the opening, it might be a better use of time to stick with the renowned modules that use actual array objects.
 [Table of Contents](#table-of-contents)
